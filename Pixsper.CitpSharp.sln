@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixsper.CitpSharp", "src\Pixsper.CitpSharp\Pixsper.CitpSharp.csproj", "{F437DCE0-3201-4D83-9535-AAB3CD16C5D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixsper.CitpSharp.DummyMediaServer", "examples\Pixsper.CitpSharp.DummyMediaServer\Pixsper.CitpSharp.DummyMediaServer.csproj", "{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixsper.CitpSharp.DummyVisualizer", "examples\Pixsper.CitpSharp.DummyVisualizer\Pixsper.CitpSharp.DummyVisualizer.csproj", "{76D9DCD6-AFF3-4056-888F-A4E256970DA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixsper.CitpSharp.FileSystemMediaServer", "examples\Pixsper.CitpSharp.FileSystemMediaServer\Pixsper.CitpSharp.FileSystemMediaServer.csproj", "{1F2391F3-A837-4316-8A66-61F1CE9B6DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{75EF1C54-B2F4-4FCA-BBF1-7E8FD65F87DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixsper.CitpSharp.Tests", "tests\Pixsper.CitpSharp.Tests\Pixsper.CitpSharp.Tests.csproj", "{9AF968EF-9C8C-4F20-B705-4B4CC8D0094C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F437DCE0-3201-4D83-9535-AAB3CD16C5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F437DCE0-3201-4D83-9535-AAB3CD16C5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F437DCE0-3201-4D83-9535-AAB3CD16C5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F437DCE0-3201-4D83-9535-AAB3CD16C5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D9DCD6-AFF3-4056-888F-A4E256970DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D9DCD6-AFF3-4056-888F-A4E256970DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D9DCD6-AFF3-4056-888F-A4E256970DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D9DCD6-AFF3-4056-888F-A4E256970DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2391F3-A837-4316-8A66-61F1CE9B6DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2391F3-A837-4316-8A66-61F1CE9B6DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2391F3-A837-4316-8A66-61F1CE9B6DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2391F3-A837-4316-8A66-61F1CE9B6DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF968EF-9C8C-4F20-B705-4B4CC8D0094C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF968EF-9C8C-4F20-B705-4B4CC8D0094C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF968EF-9C8C-4F20-B705-4B4CC8D0094C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF968EF-9C8C-4F20-B705-4B4CC8D0094C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEBF3AEC-82F2-4B9F-B495-A5B33F9D5550} = {75EF1C54-B2F4-4FCA-BBF1-7E8FD65F87DB}
+		{76D9DCD6-AFF3-4056-888F-A4E256970DA8} = {75EF1C54-B2F4-4FCA-BBF1-7E8FD65F87DB}
+		{1F2391F3-A837-4316-8A66-61F1CE9B6DAB} = {75EF1C54-B2F4-4FCA-BBF1-7E8FD65F87DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {145B1D37-904D-4D09-9155-5D5FB25DAB41}
+	EndGlobalSection
+EndGlobal
