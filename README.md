@@ -2,9 +2,7 @@
 
 C# library implementing CITP (Controller Interface Transport Protocol). The protocol allows transfer of status information, image thumbnails and streaming video frames between media servers, lighting desks and visualizers.
 
-See http://www.citp-protocol.org/ for more information on CITP.
-
-[![Build status](https://ci.appveyor.com/api/projects/status/8ojpi43ro6y8kcn2?svg=true)](https://ci.appveyor.com/project/Pixsper/citpsharp)
+See https://www.lewlight.com/citp-protocol/ for more information on CITP.
 
 ## NuGet
 
@@ -20,4 +18,4 @@ The library is LGPL-3.0 licensed, allowing use in non-GPL-licensed projects. Any
 
 ## Copyright
 
-Copyright (c) 2021 Pixsper Ltd.
+Copyright (c) 2024 Pixsper Ltd.

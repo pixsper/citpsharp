@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <Product>CitpSharp</Product>
+    <Company>Pixsper</Company>
+    <Copyright>Copyright © 2024 Pixsper Ltd.</Copyright>
+    <PackageProjectUrl>https://github.com/pixsper/citpsharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pixsper/citpsharp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Description>C# library for implementing CITP in entertainment control applications. The protocol allows transfer of status information, image thumbnails and streaming video frames between media servers, lighting desks and visualizers. See https://www.lewlight.com/citp-protocol/ for more information on CITP.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Video;DMX;Lighting;Media;Streaming</PackageTags>    
+  </PropertyGroup> 
+  
+  <ItemGroup>
+    <PackageReference Include="GitVersion.MsBuild" Version="5.12.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+    <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(MSBuildProjectName).Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\resources\icon.png" Link="Resources\icon.png" Pack="True" PackagePath="\" />
+    <None Include="..\..\README.md" Link="Resources\README.md" Pack="True" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
